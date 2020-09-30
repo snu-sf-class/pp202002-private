@@ -67,7 +67,7 @@ object Main {
   /*
    Exercise 3: Ping-pong Ackermann function
 
-   Given a function p and positive integer a and b, implement this function `ppa`: (0 <= n <= 10^6)
+   Given a function p and positive integer a and b, implement this function `ppa`: (0 <= a, b <= 10^6)
    ppa(p, a, b) = p(a, b)               (if a <= 0 or b <= 0)
    ppa(p, a, b) = p(a, ppa(p, a-1, b))  (if p(a, b) is even and a, b > 0)
    ppa(p, a, b) = p(ppa(p, a, b-1), b)  (if p(a, b) is odd and a, b > 0)
