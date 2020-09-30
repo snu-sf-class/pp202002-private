@@ -73,7 +73,7 @@ object Main {
    ppa(p, a, b) = p(ppa(p, a, b-1), b)  (if p(a, b) is odd and a, b > 0)
 
 
-   Hint 1: If n > 0, wrap remained calculations, make it as an anonymous function and pass it to the parameter recursively.
+   Hint 1: If a, b > 0, wrap remained calculations, make it as an anonymous function and pass it to the parameter recursively.
            That anonymous function is called 'Continuation'. You'd better search 'Continuation Passing Style'.
 
    Hint 2: Due to the limits of Scala's platform (JVM), tail call (not tail recursion) is not optimized generally,
