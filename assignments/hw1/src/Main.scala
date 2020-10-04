@@ -58,7 +58,9 @@ object Main {
 
    The difference between your result and the real integral value should be less than 0.001
 
-   Hint: Increase the number of subdivision `n` until the value moves less then 0.001
+   Hint: Double `n` until the value moves less then 0.001
+   
+   Addition 10/04: Assume that the difference with a Riemann sum and a real integral value will always be less than 0.001 when n >= 10^7
    */
   def integral(f: Double => Double, a: Double, b: Double): Double = {
     ???
