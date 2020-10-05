@@ -33,9 +33,7 @@ If you have any questions, please submit an issue to [pp202002 issue tracker](ht
 
 ## Submissions
 
-http://147.46.242.53:12345 
-
-* 현재 서버가 불안정하여, 제출서버에 접근하기 어려울 수 있습니다. 안정화 되면 재공지하겠습니다.
+http://147.46.242.53:21300
 
 
 
