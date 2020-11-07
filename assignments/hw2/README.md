@@ -12,6 +12,7 @@ If you have any questions, please submit an issue to [pp202002 issue tracker](ht
 
 ## Submissions
 
+HW2 submission page will be opened next week
 http://147.46.242.53:21300
 
 
