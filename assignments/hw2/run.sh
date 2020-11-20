@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-scala -cp classes pp202002.hw1test.Test
+scala -cp classes pp202002.hw2test.Test
