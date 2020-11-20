@@ -1,2 +1,2 @@
-call scala -cp classes pp202002.hw1test.Test
+call scala -cp classes pp202002.hw2test.Test
 pause
