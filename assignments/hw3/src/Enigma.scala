@@ -84,7 +84,7 @@ sealed abstract class EnigmaParts {
   def backward(c: Char): Char
 }
 
-case class Wire(/* WRITE YOUR CODE */) extends EnigmaParts {
+case class Wire(connection: String) extends EnigmaParts {
   def forward(c: Char): Char = connection(c - 'A')
 
   def backward(c: Char): Char = ???
