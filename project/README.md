@@ -1,6 +1,6 @@
 # Project: Programming Principles, SNU 4190.210
 
-Refer to the [manual](pp-proj.pdf), make complete three scripts below.
+Refer to the [manual](pp_proj.pdf), make complete three scripts below.
 * [ExprInterpreter](src/main/scala/pp202002/project/impl/ExprInterpreter.scala)
 * [MapEnvImpl](src/main/scala/pp202002/project/impl/MapEnvImpl.scala) 
 * [Prime](src/main/scala/pp202002/project/impl/Prime.scala)
