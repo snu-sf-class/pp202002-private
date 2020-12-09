@@ -91,7 +91,7 @@ class ExprParser(val input: ParserInput) extends Parser {
   }
 
   def SArg: Rule1[Arg] = rule {
-    (Ident ~> AVName) | ('(' ~ WL ~ "lazy-val" ~ SP ~ Ident ~ WL ~ ")" ~> ANName)
+    (Ident ~> AVName) | ('(' ~ WL ~ "by-name" ~ SP ~ Ident ~ WL ~ ")" ~> ANName)
   }
 
   def SArgList: Rule1[List[Arg]] = rule {

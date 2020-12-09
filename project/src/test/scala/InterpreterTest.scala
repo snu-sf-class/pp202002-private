@@ -24,6 +24,11 @@ class InterpreterTest extends AnyFlatSpec {
     assert(exprInterpreter.interp(parse(code)) == Success(expect))
   }
 
+  "Basic compare" should "return right 0 or left 0" in {
+    runAssert("(< 1 2)", VRight(VInt(0)))
+    runAssert("(> 1 2)", VLeft(VInt(0)))
+  }
+
   "Basic let" should "return 3" in {
     val adder =
       """
