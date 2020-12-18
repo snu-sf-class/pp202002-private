@@ -50,7 +50,7 @@ If you have any troubles related with SBT or execution, please submit an issue t
 
 ## Restrictions
 
-* Do not use keyword `var` (except in `EVLazyVal`). Use `val` and `def` instead.
+* Do not use keyword `var` (except in `LVLazy`). Use `val` and `def` instead.
   * To implement laziness, you should exploit `var evaluated` from `EVLazyVal`  
 * You can use some scala methods and APIs that we used from skeletons. Precisely, you can now use APIs and data structures from below. 
   * `scala.collection.*` (except `scala.collection.mutable.*`)
